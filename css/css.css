@@ -254,6 +254,7 @@ text-align: center;
 color: #2e2f42;
 margin: 0;
 /* padding-bottom: 72px; */
+text-transform: capitalize
 }
 
 .ourportfolio-list{
