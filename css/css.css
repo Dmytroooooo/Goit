@@ -121,6 +121,7 @@ margin: 0px;
 
 .title-button{
 color: white;
+cursor: pointer;
 background-color: #4D5AE5;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -136,6 +137,14 @@ margin-bottom: 188px;
 /* height: 56px; */
 border: 0;
 /* padding: 0; */
+}
+
+.title-button:hover{
+background-color: #404BBF;
+}
+
+.title-button:focus{
+background-color: #404BBF;
 }
 
 /*main-characteristic*/
@@ -310,13 +319,13 @@ color: #434455;
 
 /*footer*/
 
-.foter{
+.footer{
 /* width: 1440px; */
 /* height: 312px; */
 background-color: #2E2F42;  
 }
 
-.foter-list{
+.footer-list{
 /* width: 264px; */
 /* height: 112px; */
 /* padding-left: 156px; */
@@ -326,10 +335,10 @@ background-color: #2E2F42;
 margin: 0;
 }
 
-.foter-list-item{
+.footer-list-item{
 }
 
-.foter-list-item-logo{
+.footer-list-item-logo{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -339,7 +348,7 @@ text-transform: uppercase;
 color: #4D5AE5;
 }
 
-.foter-list-item-logo-studio{
+.footer-list-item-logo-studio{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -349,7 +358,7 @@ text-transform: uppercase;
 color: #f4f4fd;
 }
 
-.foter-list-item-motivation-phrase{
+.footer-list-item-motivation-phrase{
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
