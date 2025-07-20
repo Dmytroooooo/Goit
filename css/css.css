@@ -27,6 +27,16 @@ color: #4D5AE5;
 /* padding-bottom: 24px; */
 }
 
+.header-logo-studio{
+font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
 .header-nav{
 color: #2E2F42;
 }
@@ -132,6 +142,10 @@ border: 0;
 
 .characteristic{
 margin-bottom: 120px;  
+}
+
+.characteristic-title{
+
 }
 
 .characteristic-list{
@@ -316,6 +330,16 @@ margin: 0;
 }
 
 .footer-list-item-logo{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.footer-list-item-logo-studio{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
