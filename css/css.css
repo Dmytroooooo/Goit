@@ -13,20 +13,21 @@ display: flex;
 
 .header-nav{
 color: #2E2F42;
+display: flex;
 }
 
 .header-nav-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-    padding-left: 156px;
-    padding-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+padding-left: 156px;
+padding-right: 76px;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .header-nav-logo:hover{
@@ -38,13 +39,13 @@ color: #404bbf
 }
 
 .header-nav-logo-studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
 }
 
 .header-nav-list{
@@ -305,6 +306,8 @@ gap: 24px;
 }
 
 .ourportfolio-list-item{
+width: 360px;
+height: 420px;
 }
 
 .ourportfolio-list-item-image{
