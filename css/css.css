@@ -1,9 +1,5 @@
-*{
-margin: 0;
-}
-
 body{
-margin: 0;
+margin: 0;  
 }
 
 /* header */
@@ -20,17 +16,17 @@ color: #2E2F42;
 }
 
 .header-nav-logo {
-font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
-padding-left: 156px;
-padding-right: 76px;
-padding-top: 24px;
-padding-bottom: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    padding-left: 156px;
+    padding-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav-logo:hover{
@@ -42,13 +38,13 @@ color: #404bbf
 }
 
 .header-nav-logo-studio {
-font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 
 .header-nav-list{
@@ -56,6 +52,7 @@ width: 261px;
 height: 24px;
 padding-top: 24px;
 padding-bottom: 24px;
+margin: 0;
 padding-right: 332px;
 padding-left: 0;
 gap: 40px;
@@ -84,6 +81,7 @@ padding-top: 24px;
 padding-bottom: 24px;
 padding-right: 156px;
 padding-left: 0;
+margin: 0;
 }
 
 .header-address-list-item{
@@ -96,11 +94,11 @@ color: #434455;
 }
 
 .header-address-list-item:hover {
-color: #404bbf
+    color: #404bbf
 }
 
 .header-address-list-item:focus {
-color: #404bbf
+    color: #404bbf
 }
 
 
@@ -179,6 +177,7 @@ display: flex;
 gap: 24px;
 padding-left: 156px;
 padding-right: 156px;
+margin: 0;
 justify-content: center;
 width: 1128px;
 height: 104px;
@@ -196,6 +195,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin: 0;
 }
 
 .characteristic-list-item-description{
@@ -205,6 +205,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+margin: 0;
 }
 
 /*main-our-team*/
@@ -226,6 +227,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin: 0;
 text-transform: capitalize;
 }
 
@@ -235,6 +237,7 @@ gap: 24px;
 padding-bottom: 120px;
 padding-left: 156px;
 padding-right: 156px;
+margin: 0;
 }
 
 .ourteam-list-item{
@@ -288,6 +291,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin: 0;
 padding-bottom: 72px;
 text-transform: capitalize;
 }
@@ -295,6 +299,7 @@ text-transform: capitalize;
 .ourportfolio-list{
 display: flex;
 padding: 0;
+margin: 0;
 flex-wrap: wrap;
 gap: 24px;
 }
@@ -342,6 +347,7 @@ padding-left: 156px;
 padding-right: 1020px;
 padding-top: 100px;
 padding-bottom: 100px;
+margin: 0;
 }
 
 .footer-list-item{
@@ -374,6 +380,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+margin: 0;
 padding-top: 16px;
 }
 
