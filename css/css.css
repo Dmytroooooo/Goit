@@ -124,6 +124,11 @@ width: 1440px;
 height: 600px;
 background-color: #2E2F42;
 margin-bottom: 120px; 
+padding: 188px 0;
+}
+
+.title> .container{
+
 }
 
 .title-title{
