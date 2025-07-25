@@ -263,16 +263,16 @@ padding-right: 156px;
 margin: 0;
 }
 
-.ourteam-list-container{
-
-}
-
 .ourteam-list-item{
 text-align: center;
 background-color: white;
 width: 264px;
 height: 380px;
 border-radius: 0px 0px 4px 4px;
+}
+
+.ourteam-list-container {
+padding: 32px 0;
 }
 
 .ourteam-list-item-image{
@@ -288,6 +288,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .ourteam-list-item-title{
@@ -325,8 +326,8 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 margin: 0;
-padding-bottom: 72px;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 
 .ourportfolio-list{
@@ -335,11 +336,18 @@ padding: 0;
 margin: 0;
 flex-wrap: wrap;
 gap: 24px;
+row-gap: 48px;
 }
 
 .ourportfolio-list-item{
 width: 360px;
 height: 420px;
+}
+
+.ourportfolio-list-container{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
 }
 
 .ourportfolio-list-item-image{
@@ -354,6 +362,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .ourportfolio-list-item-description{
