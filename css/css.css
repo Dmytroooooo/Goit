@@ -17,10 +17,10 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container{
-/* display: flex;
+display: flex;
 width: 1158px;
 margin: 0 auto;
-padding: 0 15px; */
+padding: 0 15px;
 }
 
 .header-nav{
@@ -29,7 +29,7 @@ display: flex;
 align-items: center;
 }
 
-.header-nav-logo {
+.header-nav-logo{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -37,10 +37,10 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-padding-left: 156px;
-padding-right: 76px;
-padding-top: 24px;
-padding-bottom: 24px;
+margin-left: 156px;
+margin-right: 76px;
+margin-top: 24px;
+margin-bottom: 24px;
 }
 
 .header-nav-logo:hover{
@@ -64,11 +64,9 @@ color: #2e2f42;
 .header-nav-list{
 width: 261px;
 height: 24px;
-padding-top: 24px;
-padding-bottom: 24px;
+padding: 24px 0;
 margin: 0;
-padding-right: 332px;
-padding-left: 0;
+margin-right: 332px;
 gap: 40px;
 display: flex;
 }
