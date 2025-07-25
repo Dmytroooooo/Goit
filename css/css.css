@@ -180,11 +180,12 @@ background-color: #404BBF;
 /*main-characteristic*/
 
 .characteristic{
-margin-bottom: 120px;  
+margin-bottom: 120px;
+padding: 120px 0;
 }
 
-.characteristic-title{
-display: none;
+.characteristic> .container{
+
 }
 
 .characteristic-list{
@@ -421,4 +422,18 @@ color: #2E2F42;
 
 img{
 display: block;  
+}
+
+.visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
