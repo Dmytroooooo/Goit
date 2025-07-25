@@ -251,6 +251,7 @@ text-align: center;
 color: #2e2f42;
 margin: 0;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 
 .ourteam-list{
@@ -262,11 +263,16 @@ padding-right: 156px;
 margin: 0;
 }
 
+.ourteam-list-container{
+
+}
+
 .ourteam-list-item{
 text-align: center;
 background-color: white;
 width: 264px;
 height: 380px;
+border-radius: 0px 0px 4px 4px;
 }
 
 .ourteam-list-item-image{
