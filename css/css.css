@@ -33,7 +33,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-margin-left: 156px;
+margin-left: 15px;
 margin-right: 76px;
 margin-top: 24px;
 margin-bottom: 24px;
@@ -60,7 +60,7 @@ color: #2e2f42;
 .header-nav-list{
 width: 261px;
 height: 24px;
-padding: 24px 0;
+padding: 0;
 margin: 0;
 margin-right: 332px;
 gap: 40px;
@@ -68,17 +68,31 @@ display: flex;
 }
 
 .header-nav-list-item{
-display: inline;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding: 24px 0;
+height: auto;
+width: auto;
+position: relative;
+align-self: center;
+}
+
+.header-nav-list-item:first-child::after{
+content: "";
+display: block;
+background-color: #404bbf;
+border-radius: 2px;
+width: 100%;
+height: 4px;
+position: absolute;
+bottom: 0;
 }
 
 .header-nav-link{
-padding: 24px 0;
 }
 
 .header-address{
@@ -89,11 +103,11 @@ font-style: normal;
 .header-address-list{
 gap: 40px;
 display: flex;
-padding-top: 24px;
-padding-bottom: 24px;
-padding-right: 156px;
-padding-left: 0;
-margin: 0;
+margin-left: 0;
+margin-top: 24px;
+margin-bottom: 24px;
+margin-right: 15px;
+padding: 0;
 }
 
 .header-address-list-item{
@@ -134,13 +148,15 @@ color: #404bbf
 .title{
 width: 1440px;
 height: 600px;
-background-color: #2E2F42;
 margin-bottom: 120px; 
-padding: 188px 0;
+padding: 0;
+background-image: url(../images/people-office\ 1.jpg);
 }
 
 .title> .container{
-
+background: rgba(46, 47, 66, 0.7);
+width: 100%;
+height: 100%;
 }
 
 .title-title{
@@ -193,7 +209,7 @@ background-color: #404BBF;
 
 .characteristic{
 margin-bottom: 120px;
-padding: 120px 0;
+padding: 0;
 }
 
 .characteristic> .container{
@@ -208,12 +224,24 @@ padding-right: 156px;
 margin: 0;
 justify-content: center;
 width: 1128px;
-height: 104px;
+height: 224px;
 }
 
 .characteristic-list-item{
 width: 264px;
-height: 104px;
+height: 224px;
+}
+
+.characteristic-list-item-container{
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+}
+
+.characteristic-list-item-container>svg{
+margin: 24px 100px;
 }
 
 .characteristic-list-item-name{
@@ -242,9 +270,9 @@ margin: 0;
 .ourteam{
 background-color: #F4F4FD;
 width: 1440px;
-height: 732px;
+height: 780px;
 margin-bottom: 120px; 
-padding: 120px 0;
+padding: 0;
 }
 
 .ourteam> .container{
@@ -279,20 +307,21 @@ margin: 0;
 text-align: center;
 background-color: white;
 width: 264px;
-height: 380px;
+height: 428px;
 border-radius: 0px 0px 4px 4px;
 }
 
 .ourteam-list-container {
-padding: 32px 0;
 }
 
 .ourteam-list-item-image{
 width: 264px;
 height: 260px;
+margin-bottom: 32px;
 }
 
 .ourteam-list-item-name{
+margin: 0;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
@@ -304,6 +333,7 @@ margin-bottom: 8px;
 }
 
 .ourteam-list-item-title{
+margin: 0;
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -311,7 +341,32 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+margin-bottom: 8px;
 }
+
+.ourteam-list-item-container{
+width: 232px;
+height: 40px;
+gap: 24px;
+display: flex;
+margin: 0 16px;
+}
+
+.ourteam-list-item-svg-svg{
+fill: #f4f4fd;
+} 
+
+.ourteam-list-item-list .ourteam-list-item-svg{
+display: flex;
+justify-content: center;
+align-content: center;
+background-color: #4D5AE5;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+margin: 0;
+}
+
 
 /*main-our-portfolio*/
 
@@ -322,7 +377,7 @@ height: 1000px;
 margin-bottom: 120px;
 margin-left: 156px;
 margin-right: 156px;
-padding: 120px 0;
+padding: 0;
 }
 
 .ourportfolio> .container{
@@ -354,6 +409,9 @@ row-gap: 48px;
 .ourportfolio-list-item{
 width: 360px;
 height: 420px;
+cursor: pointer;
+margin-bottom: 40px;
+position: relative;
 }
 
 .ourportfolio-list-container{
@@ -386,6 +444,33 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.cashless-payment-overlay{
+color: rgba(244, 244, 253, 0);
+width: 360px;
+height: 300px;
+background-color: rgba(77, 90, 229, 0);
+position: absolute;
+top: 0;
+overflow: hidden;
+transition-property:background-color, color;
+transition-duration: 1s;
+}
+
+.cashless-payment-overlay-text{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+padding: 40px 32px 164px 32px;
+}
+
+.cashless-payment-overlay:hover{
+background: rgba(77, 90, 229, 1);
+color: rgba(244, 244, 253, 1);
+}
+
+
 
 
 /*footer*/
@@ -394,20 +479,20 @@ color: #434455;
 width: 1440px;
 height: 312px;
 background-color: #2E2F42;
-padding: 100px 0;
+padding: 0;
+display: flex;
 }
 
 .footer> .container{
 width: 264px;
 height: 112px;
 padding-left: 156px;
-padding-right: 1020px;
+padding-right: 120px;
 padding-top: 100px;
 padding-bottom: 100px;
-margin: 0;
 }
 
-.footer-list-item-logo{
+.footer-logo{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -419,7 +504,7 @@ display: inline-block;
 margin-bottom: 16px;
 }
 
-.footer-list-item-logo-studio{
+.footer-logo-studio{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -429,7 +514,7 @@ text-transform: uppercase;
 color: #f4f4fd;
 }
 
-.footer-list-item-motivation-phrase{
+.footer-motivation-phrase{
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -437,11 +522,44 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 margin: 0;
-padding-top: 16px;
 max-width: 264px
 }
 
+.footer-social-madia{
+padding-right: 692px;
+padding-top: 100px;
+padding-bottom: 132px;
+width: 208px;
+height: 80px;
+}
 
+.footer-svg-item{
+align-content: center;
+background-color: #4D5AE5;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+display: inline;
+
+}
+
+.footer-social-madia-tytle{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin: 0;
+margin-bottom: 16px;
+}
+
+.footer-svg{
+width: 208px;
+height: 40px;
+display: flex;
+gap: 16px;
+}
 
 /*other-styles*/
 
@@ -476,3 +594,4 @@ clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
+
