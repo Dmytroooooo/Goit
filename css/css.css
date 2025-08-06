@@ -381,6 +381,7 @@ margin: 0;
 display: flex;
 justify-content: center;
 align-content: center;
+width: 40px;
 }
 
 .ourteam-svg-list-item{
