@@ -344,7 +344,7 @@ color: #434455;
 margin-bottom: 8px;
 }
 
-.ourteam-list-item-container{
+.ourteam-svg{
 width: 232px;
 height: 40px;
 gap: 24px;
@@ -352,11 +352,11 @@ display: flex;
 margin: 0 16px;
 }
 
-.ourteam-list-item-svg-svg{
+.ourteam-svg-icon{
 fill: #f4f4fd;
 } 
 
-.ourteam-list-item-list .ourteam-list-item-svg{
+.ourteam-svg-list .ourteam-svg-link{
 display: flex;
 justify-content: center;
 align-content: center;
