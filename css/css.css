@@ -290,9 +290,7 @@ padding: 0;
 }
 
 .ourteam> .container{
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-0px 1px 1px rgba(46, 47, 66, 0.16),
-0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 
 .ourteam-title{
@@ -325,6 +323,9 @@ background-color: white;
 width: 264px;
 height: 428px;
 border-radius: 0px 0px 4px 4px;
+transition: 0px 1px 6px rgba(46, 47, 66, 0.08),
+0px 1px 1px rgba(46, 47, 66, 0.16),
+0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .ourteam-list-container{
@@ -380,8 +381,9 @@ width: 100%;
 margin: 0;
 display: flex;
 justify-content: center;
-align-content: center;
+align-items: center;
 width: 40px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ourteam-svg-list-item{
