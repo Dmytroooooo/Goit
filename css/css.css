@@ -87,7 +87,6 @@ align-self: center;
 .header-nav-list-link{
 position: relative;
 color: #404bbf;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-list-link::after{
@@ -140,11 +139,11 @@ color: #404bbf
 }
 
 .header-address-mail{
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address-tel{
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
