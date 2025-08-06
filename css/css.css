@@ -327,7 +327,8 @@ height: 428px;
 border-radius: 0px 0px 4px 4px;
 }
 
-.ourteam-list-container {
+.ourteam-list-container{
+padding: 32px 0;
 }
 
 .ourteam-list-item-image{
