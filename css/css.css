@@ -361,27 +361,28 @@ color: #434455;
 margin-bottom: 8px;
 }
 
-.ourteam-svg{
-width: 232px;
-height: 40px;
-gap: 24px;
-display: flex;
-margin: 0 16px;
-}
-
 .ourteam-svg-icon{
 fill: #f4f4fd;
 } 
 
-.ourteam-svg-list .ourteam-svg-link{
+.ourteam-svg-list{
+gap: 24px;
 display: flex;
 justify-content: center;
 align-content: center;
+}
+
+.ourteam-svg-list .ourteam-svg-link{
 background-color: #4D5AE5;
 border-radius: 50%;
-height: 40px;
-width: 40px;
+height: 100%;
+width: 100%;
 margin: 0;
+}
+
+.ourteam-svg-list-item{
+width: 40px;
+height: 40px;
 }
 
 
