@@ -537,6 +537,7 @@ display: flex;
 .footer> .container{
 display: flex;
 align-items: baseline;
+margin-right: 120px;
 }
 
 .footer-text{
@@ -590,13 +591,16 @@ height: 80px;
 }
 
 .footer-svg-item{
+
+}
+
+.footer-svg{
 align-content: center;
 background-color: #4D5AE5;
 border-radius: 50%;
 height: 40px;
 width: 40px;
 display: inline;
-
 }
 
 .footer-social-madia-tytle{
@@ -610,7 +614,7 @@ margin: 0;
 margin-bottom: 16px;
 }
 
-.footer-svg{
+.footer-svg-list{
 width: 208px;
 height: 40px;
 display: flex;
