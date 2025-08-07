@@ -594,13 +594,28 @@ height: 80px;
 
 }
 
-.footer-svg{
-align-content: center;
+.footer-svg-link{
+width: 100%;
+height: 100%;
 background-color: #4D5AE5;
 border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer-svg-link:hover{
+background-color: #31d0aa;
+}
+
+.footer-svg-link:focus{
+background-color: #31d0aa;
+}
+
+.footer-svg{
 height: 40px;
 width: 40px;
-display: inline;
+fill: #F4F4FD;
 }
 
 .footer-social-madia-tytle{
