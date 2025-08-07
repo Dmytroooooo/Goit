@@ -491,10 +491,6 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.ourportfolio-list-item-description:hover{
-transform: translateY(0%);
-}
-
 .cashless-payment-overlay{
 color: rgba(244, 244, 253, 0);
 width: 360px;
@@ -514,6 +510,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 40px 32px 164px 32px;
+}
+
+.cashless-payment-overlay-text:hover{
+transform: translateY(0%);
 }
 
 .cashless-payment-overlay:hover{
